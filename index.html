@@ -16,8 +16,37 @@
 
         </div>
 
-        <div class="add-employee">
-
+        <div class="container" id="add-employee">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            Add Employee
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="bidder-name">Employee Name</label>
+                                    <input class="form-control" id="employee-name" type="text" placeholder="Jane Doe">
+                                </div>
+                                <div class="form-group row">
+                                        <label for="employee-role">Role</label>
+                                        <input class="form-control" id="employee-role" type="text" placeholder="CFO">
+                                </div>
+                                <div class="form-group row">
+                                        <label for="employee-date">Start Date (MM/DD/YYYY)</label>
+                                        <input class="form-control" id="employee-date" type="text" placeholder="12/03/1999">
+                                </div>
+                                <div class="form-group row">
+                                    <label for="employee-rate">Monthly Rate ($)</label>
+                                    <input class="form-control" id="employee-rate" type="number" placeholder="1000.0">
+                                </div>
+                                <button class="btn btn-primary" id="submit-employee" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
     <script src="/assets/js/main.js"></script>
